@@ -1,0 +1,19 @@
+.bgcolor{
+	background-color: #23303D;
+}
+
+.container-fluid{
+
+}
+
+.middlecol{
+	background-image: url("background-image.jpg");
+	background-position: center;
+	background-size: cover;
+	filter:blur(3px);
+	transform: scale(1.1)
+}
+
+.row{
+	height: 100vh;
+}
