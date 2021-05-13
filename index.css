@@ -1,19 +1,22 @@
-.bgcolor{
-	background-color: #23303D;
-}
-
 .container-fluid{
-
 }
 
-.middlecol{
+.contentcol{
 	background-image: url("background-image.jpg");
-	background-position: center;
-	background-size: cover;
-	filter:blur(3px);
-	transform: scale(1.1)
+	/*background-position: center;*/
+	background-size: 100% auto;
+	/*background-size: cover;*/
+	filter:blur(2px);
+	transform: scale(1.05);
+	overflow-y: auto;
 }
 
-.row{
+.scrollcol{
+	background-color: #23303D;
+	overflow: hidden;
+}
+
+
+.bodyrow{
 	height: 100vh;
 }
