@@ -1,57 +1,9 @@
-:root{
-    font-size: 16px;
-    font-family: 'Open Sans';
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: #2C4251;
-    --bg-secondary: #141418;
+.link-image{
+    filter: grayscale(100%);
+    transition: .5s ease;
+
 }
 
-body{
-    color: white;
-    background-color: white;
-    margin:0;
-    padding:0;
-    background-image: url('/assets/city-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#page-links{
-    width: 50vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#icon-links{
-    width: 50vw;
-    display: flex;
-    margin-left: auto;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-
-.navbar{
-    margin: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.icon-container{
-    height: 40px;
-    width: 40px;
-    margin: 8px;
-}
-
-ul{
-    align-items: right;
-    display: flex;
-    list-style: none;
-    padding: 0px;
-}
-
-ul li{
-    margin: 5px;
+.link-image:hover{
+    filter: grayscale(25%);
 }
