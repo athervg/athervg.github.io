@@ -1,3 +1,11 @@
+body{
+    background: url("/assets/city-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .link-image{
     filter: grayscale(100%);
     transition: .5s ease;
@@ -6,4 +14,18 @@
 
 .link-image:hover{
     filter: grayscale(25%);
+}
+
+#page-links{
+    
+}
+
+
+#body-content{
+    
+    margin-top: 10vh;
+}
+
+.card{
+    margin-bottom: 10vh;
 }
