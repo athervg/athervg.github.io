@@ -1,9 +1,10 @@
 body{
-    background: url("/assets/city-background.jpg");
+    background: url("/assets/city4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 .link-image{
@@ -22,10 +23,13 @@ body{
 
 
 #body-content{
-    
     margin-top: 10vh;
 }
 
 .card{
     margin-bottom: 10vh;
+}
+
+#name-title{
+    font-family: 'Lato', sans-serif;
 }
