@@ -1,16 +1,15 @@
 body{
-    background: url("/assets/city4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Hind Madurai', sans-serif;
+    background-color: rgb(236, 238, 241);
 }
 
 .link-image{
     filter: grayscale(100%);
     transition: .5s ease;
-
 }
 
 .link-image:hover{
@@ -21,15 +20,27 @@ body{
     
 }
 
-
 #body-content{
     margin-top: 10vh;
 }
 
-.card{
-    margin-bottom: 10vh;
-}
-
 #name-title{
     font-family: 'Lato', sans-serif;
+}
+
+.button-container{
+    background-color: white;
+    border-radius: 30px;
+    width: 45px;
+    height: 45px;
+}
+
+.external-link{
+    width:45px;
+    height:45px;
+    border-radius: 30px;
+}
+
+.nav-link{
+    text-align: right;
 }
