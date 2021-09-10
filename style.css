@@ -53,3 +53,11 @@ body{
     width: 300px;
     height: 400px;
 }
+
+#bio-text{
+    padding-left: 7px;
+}
+
+#bio-container{
+    margin-bottom: 50vh;
+}

@@ -42,50 +42,81 @@
 
 	<div class="container-fluid" id="body-content">
 
-		<div class="row justify-content-center" id="bio-content-row">
-			<div class="col-2" id="bio-image">
-				<img src="/assets/city-background.jpg" id="bio-image">
+		<div id="bio-container">
+			<div class="row justify-content-center" id="bio-content-row">
+				<div class="col-2" id="bio-image">
+					<img src="/assets/city-background.jpg" alt="my picture should be here..." id="bio-image">
+				</div>
+				<div class="col-3" id="bio-text-col">
+					<div id="bio-text">
+						<h4>
+							Hi! I'm Atherv.
+						</h4>
+						<p>
+						I'm a 4th year undergraduate student at UC Santa Barbara, studying Statistics and Data Science.
+						</p>
+						<p>
+							I like to code! I built this website from "scratch" with Bootstrap.
+							While interning, I've built some live data dashboards entirely in Python
+							(with the amazing Plotly Dash library, HTML and CSS frontend), and set up a Linux
+							Server on an old PC to host them network wide. I've built a standalone desktop app with ElectronJS,
+							and I love doing web design.
+						</p>
+						<p>
+							I've written a whole bunch of SQL, R, and Python Pandas code, and Matplotted and Plotly'd
+							a ton of graphs and charts as well.
+						</p>
+						<p>
+							Overall, I love working with data, software, and web development
+							and I hope I can put that to use to contribute to something that helps the world.
+						</p>
+					</div>
+				</div>
 			</div>
-			<div class="col-3" id="bio-text">
-				<h4>Hi! I'm Atherv.</h4>
-					<p>
-					I'm a 4th year undergraduate student at UC Santa Barbara, studying Statistics and Data Science.
-					</p>
-					<p>
-						I like to code! I built this website from "scratch" with Bootstrap.
-						While interning, I've built some live data dashboards entirely in Python
-						(with the amazing Plotly Dash library, HTML and CSS frontend), and set up a Linux
-						Server on an old PC to host them network wide. I've built a standalone desktop app with ElectronJS,
-						and I love doing web design.
-					</p>
-					<p>
-						I've written a whole bunch of SQL, R, and Python Pandas code, and Matplotted and Plotly'd
-						a ton of graphs and charts as well.
-					</p>
-					<p>
-						Overall, I love data, software, and web development
-						and I hope I can put that to use to contribute to something that helps the world.
-					</p>
+
+			<div class="row justify-content-center" id="bio-button-row">
+				<div class="col-3" id='button-col'>
+					<a class="nav-link external-nav-link link-image" href="https://github.com/athervg" target="_blank">
+						<div class="button-container">
+							<img class="rounded-image" src="/assets/github (1).svg" width="45" height="45">
+						</div>
+					</a>
+					<a class="nav-link external-nav-link link-image" href="https://www.linkedin.com/in/atherv-gole2022/" target="_blank">
+						<div class="button-container">
+							<img class="rounded-image" src="/assets/linkedin (1).svg" width="45" height="45">
+						</div>
+					</a>
+					<a class="nav-link external-nav-link link-image" href="https://open.spotify.com/artist/4mHKezmNPJVLMVaRmqlaIi" target="_blank">
+						<div class="button-container">
+							<img class="rounded-image" src="/assets/spotify.svg" width="45" height="45">
+						</div>
+					</a>
+				</div>
+				<div class="col-2">
+					<div id="button-container">
+						<a href="#" class="btn btn-outline-dark">
+							My Projects →
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<div class="row justify-content-center" id="bio-button-row">
-			<div class="col-5" id='button-col'>
-				<a class="nav-link external-nav-link link-image" href="https://github.com/athervg" target="_blank">
-					<div class="button-container">
-						<img class="rounded-image" src="/assets/github (1).svg" width="45" height="45">
+		<div id='projects-container'>
+			<div class="row justify-content-center" id="projects-card-row">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">
+							Python Live Dashboards
+						</h5>
+						<p class="card-text">
+							example text
+						</p>
+						<a href="#" class="btn btn-outline-dark">
+							Read more...
+						</a>
 					</div>
-				</a>
-				<a class="nav-link external-nav-link link-image" href="https://www.linkedin.com/in/atherv-gole2022/" target="_blank">
-					<div class="button-container">
-						<img class="rounded-image" src="/assets/linkedin (1).svg" width="45" height="45">
-					</div>
-				</a>
-				<a class="nav-link external-nav-link link-image" href="https://open.spotify.com/artist/4mHKezmNPJVLMVaRmqlaIi" target="_blank">
-					<div class="button-container">
-						<img class="rounded-image" src="/assets/spotify.svg" width="45" height="45">
-					</div>
-				</a>
+				</div>
 			</div>
 		</div>
 
