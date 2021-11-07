@@ -58,5 +58,18 @@ body{
 }
 
 .project-row{
-    background-color: #8ba888;
+    background-color: #7cab7c;
+}
+
+#projects-container{
+}
+
+.resume-row{
+    background-color: #44624a;
+}
+
+#download-resume-text{
+    color:#f8f8f8;
+    /*color: #bec3c4;*/
+    font-family: 'Hind Madurai', serif;
 }

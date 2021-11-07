@@ -47,7 +47,7 @@
 						</svg>
 						projects
 					</a>
-					<a class="nav-link mx-3 internal-link" href="#">
+					<a class="nav-link mx-3 internal-link" href="#resume">
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
 							<path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/>
 						</svg>
@@ -131,11 +131,11 @@
 
 		</div>
 
-		<div id='projects-container'>
+		<div class="" id='projects-container'>
 
 			<a id="projects"></a>
 
-			<div class="row justify-content-center text-light project-row pt-3 align-items-center"  id="cetlab-paper-row">
+			<div class="row justify-content-center text-light project-row pt-5 align-items-center"  id="cetlab-paper-row">
 
 				<div class="col-md-2">
 					<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-clipboard-data" viewBox="0 0 16 16">
@@ -158,7 +158,7 @@
 
 			</div>
 
-			<div class="row justify-content-center text-light project-row pt-3 align-items-center pt-5" id="dashboards-row">
+			<div class="row justify-content-center text-light project-row align-items-center pt-5" id="dashboards-row">
 
 				<div class="col-md-2">
 					<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
@@ -173,10 +173,64 @@
 				</div>
 
 				<div class="col-md-5 project-desc-col">
-					This paper, through the Clean Energy Transformation Lab at UCSB, analyzes the disparities in public sector energy efficiency program participation throughout California. My focus was on city level data, using multivariate polynomial regression on demographic variables to understand determining factors in clean energy program participation.
-					<p><i>The manuscript has been finalized, but this paper has not been published yet.</i></p>
+					I designed and built a multi-page web hosted dashboard app for live manufacturing status, progress, efficiency, and safety data. The app was written in Python, with HTML and CSS for UI, and it contained 4 different dashboards. SQL connection libraries were used to query local DB's, and external data was accessed through REST API's. I later migrated the project to Power BI as the company transitioned to the MS Suite.
+					<p><i>This project was during an internship at Atomica in Santa Barbara, CA.</i></p>
 				</div>
 				
+			</div>
+
+			<div class="row justify-content-center text-light project-row pt-5 pb-5 align-items-center" id="wavtagger-row">
+
+				<div class="col-md-2">
+					<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+						<path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+						<path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+						<path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+						<path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+					</svg>
+				</div>
+
+				<div class="col-md-3 project-title-col">
+					<div class="">
+						<h5>Desktop Application for Audio Sample Management</h5>
+					</div>
+				</div>
+
+				<div class="col-md-5 project-desc-col">
+					For my own personal use, I designed and wrote an Electron app to congregate audio samples in multiple formats and apply automatic organization through custom category tags. Designed to be used simultaneously with any audio software, this application allows for searching by name or tag/category and drag-and-drop functionality of any indexed sample to any application. The app was written in Node.JS with HTML and CSS for UI.
+					<p><i>This was a personal project to build JavaScript, HTML, and CSS skills.</i></p>
+				</div>
+				
+			</div>
+
+		</div>
+
+		<div id="resume-container">
+
+			<a id="resume"></a>
+
+			<div class="row justify-content-center resume-row pt-5">
+				<div class="col-md-5">
+					<h1 class="text-center" id="download-resume-text">
+						Resume
+					</h1>
+				</div>
+			</div>
+
+			<div class="row justify-content-center text-light pt-3 align-items-center resume-row"  id="download-resume-row">
+
+				<div class="col-md-4">
+					<div class="text-center button-container" id="">
+						<a href="/assets/resume.pdf" download="AthervGoleResume" class="btn btn-outline-light" id="download-resume-btn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+								<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+								<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+							</svg>
+							 Download
+						</a>
+					</div>
+				</div>
+
 			</div>
 
 		</div>
