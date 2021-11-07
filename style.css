@@ -4,8 +4,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Hind Madurai', sans-serif;
-    background-color: #202529;
-
+    background-color: #f8f8f8;
 }
 
 .link-image{
@@ -21,13 +20,8 @@ body{
     text-align:right;
 }
 
-
 #body-content{
     margin-top: 15vh;
-}
-
-#name-title{
-    font-family: 'Lato', sans-serif;
 }
 
 .button-container{
@@ -46,10 +40,23 @@ body{
 }
 
 .bio-text{
-    color: #bec3c4;
+    color:#020202;
+    /*color: #bec3c4;*/
     font-family: 'Playfair Display', serif;
 }
 
+#bio-desc-text{
+    color: #777777;
+}
+
 #bio-container{
-    margin-bottom: 50vh;
+    margin-bottom: 25vh;
+}
+
+#bio-to-projects-btn{
+    color: #777777;
+}
+
+.project-row{
+    background-color: #8ba888;
 }

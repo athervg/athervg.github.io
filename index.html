@@ -20,11 +20,11 @@
 
 <body>
 
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 
 		<div class="container-fluid d-flex justify-content-around">
 			
-			<a class="navbar-brand text-white-50 ms-4" href="#" id="name-title">
+			<a class="navbar-brand text-black-50 ms-2" href="#" id="name-title">
 				Atherv Gole
 			</a>
 
@@ -77,8 +77,17 @@
 				</div>
 			</div>
 
-			<div class="row justify-content-center" id="bio-button-row">
-				<div class="col-md-auto col-sm-1 col-xs-1">
+			<div class="row justify-content-center mb-2">
+				<div class="col-md-auto">
+					<div id="bio-desc-text">
+						Data Science student and hobbyist web developer
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center mt-2 mb-5" id="bio-button-row">
+
+				<div class="col-md-auto col-sm-1 col-xs-1 ps-0 pe-0">
 					<div class="d-flex justify-content-center">
 						<a class="nav-link external-nav-link link-image" href="https://github.com/athervg" target="_blank">
 							<div class="button-container">
@@ -88,7 +97,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-auto col-sm-1 col-xs-1">
+				<div class="col-md-auto col-sm-1 col-xs-1 ps-0 pe-0">
 					<div class="d-flex justify-content-center">
 						<a class="nav-link external-nav-link link-image" href="https://www.linkedin.com/in/atherv-gole2022/" target="_blank">
 							<div class="button-container">
@@ -98,7 +107,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-auto col-sm-1 col-xs-1">
+				<div class="col-md-auto col-sm-1 col-xs-1 ps-0 pe-0">
 					<div class="d-flex justify-content-center">
 						<a class="nav-link external-nav-link link-image" href="https://open.spotify.com/artist/4mHKezmNPJVLMVaRmqlaIi" target="_blank">
 							<div class="button-container">
@@ -107,13 +116,14 @@
 						</a>
 					</div>
 				</div>
+
 			</div>
 
-			<div class="row justify-content-center" id="bio-to-projects">
+			<div class="row justify-content-center mt-1">
 				<div class="col-md-auto">
 					<div class="text-center" id="button-container">
-						<a href="#projects" class="btn btn-outline-light">
-							My Projects →
+						<a href="#projects" class="btn" id="bio-to-projects-btn">
+							projects →
 						</a>
 					</div>
 				</div>
@@ -122,23 +132,22 @@
 		</div>
 
 		<div id='projects-container'>
+
 			<a id="projects"></a>
-			<div class="row justify-content-center" id="projects-card-row">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title">
-							Python Live Dashboards
-						</h5>
-						<p class="card-text">
-							example text
-						</p>
-						<a href="#" class="btn btn-outline-dark">
-							Read more...
-						</a>
-					</div>
+			<div class="row justify-content-center text-light project-row pt-3" id="cetlab-paper-row">
+				<div class="col-md-3 project-title-col">
+					<h2>"Understanding Inequities in participation in Energy Efficiency Programs for the Public Sector"</h2>
 				</div>
+
+				<div class="col-md-4 project-desc-col">
+					This paper, through the Clean Energy Transformation Lab at UCSB, analyzes the disparities in public sector energy efficieny program participation throughout California. My focus was on city level data, involving multivariate regressions on multiple demographic variables to understand determining factors in clean energy program participation.
+					<p><i>The manuscript has been finalized, but this paper has not yet been published.</i></p>
+				</div>
+
 			</div>
+
 		</div>
+
 
 	</div>
 
