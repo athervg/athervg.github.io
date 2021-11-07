@@ -4,7 +4,8 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Hind Madurai', sans-serif;
-    background-color: rgb(236, 238, 241);
+    background-color: #202529;
+
 }
 
 .link-image{
@@ -44,18 +45,9 @@ body{
     border-radius: 50px;
 }
 
-#button-col{
-    display: flex;
-}
-
-#bio-image{
-    padding: 0px;
-    width: 300px;
-    height: 400px;
-}
-
-#bio-text{
-    padding-left: 7px;
+.bio-text{
+    color: #bec3c4;
+    font-family: 'Playfair Display', serif;
 }
 
 #bio-container{
