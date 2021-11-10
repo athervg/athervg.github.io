@@ -120,3 +120,7 @@ body{
 .playfair{
     font-family: 'Playfair Display', serif;
 }
+
+.card{
+    background-color: #44624a;
+}
