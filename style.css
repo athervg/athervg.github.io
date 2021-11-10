@@ -69,7 +69,54 @@ body{
 }
 
 #download-resume-text{
+    padding-top: 15vh;
     color:#f8f8f8;
     /*color: #bec3c4;*/
-    font-family: 'Hind Madurai', serif;
+    font-family: 'Jost', serif;
+}
+
+
+.navbar-collapse.show{
+    margin-right: 10px;
+}
+
+.navbar-collapse.collapsing{
+    margin-right: 10px;
+}
+
+.project-title-container{
+    font-family: 'Jost', sans-serif;
+}
+
+.resume-content{
+    padding-right: 10vh;
+    padding-left: 10vh;
+}
+
+#resume-toprow-aboutme{
+    font-family: 'Playfair Display', serif;
+}
+
+#resume-toprow-picture{
+    min-width: 250px;
+}
+
+#profile-image{
+    border-radius: 50%;
+}
+
+#resume-row-top{
+    padding-top: 25vh;
+}
+
+#experience-title-row{
+    padding-top: 10vh;
+}
+
+.jost{
+    font-family: 'Jost', sans-serif;
+}
+
+.playfair{
+    font-family: 'Playfair Display', serif;
 }
