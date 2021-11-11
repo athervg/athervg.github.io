@@ -114,7 +114,8 @@ body{
 }
 
 #contact-row-top{
-    padding-top: 10vh;
+    padding-top: 5vh;
+    color: rgba(248, 248, 248, 0.5);
 }
 
 #experience-title-row{
