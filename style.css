@@ -68,6 +68,10 @@ body{
     background-color: #44624a;
 }
 
+.contact-row{
+    background-color: #293D2D
+}
+
 #download-resume-text{
     padding-top: 15vh;
     color:#f8f8f8;
@@ -109,8 +113,13 @@ body{
     padding-top: 25vh;
 }
 
-#experience-title-row{
+#contact-row-top{
     padding-top: 10vh;
+}
+
+#experience-title-row{
+    padding-top: 15vh;
+    padding-bottom: 5vh;
 }
 
 .jost{
@@ -121,6 +130,4 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-.card{
-    background-color: #44624a;
-}
+
